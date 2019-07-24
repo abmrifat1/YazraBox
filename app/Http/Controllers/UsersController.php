@@ -16,6 +16,7 @@ class UsersController extends Controller
 
     public function store(UsersDataTablesEditor $editor)
     {
+        //editor
         return $editor->process(request());
     }
 }

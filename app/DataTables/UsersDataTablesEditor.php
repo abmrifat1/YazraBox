@@ -64,6 +64,7 @@ class UsersDataTablesEditor extends DataTablesEditor
      */
     public function updating(Model $model, array $data)
     {
+        ////update
         if (empty($data['password'])) {
             unset($data['password']);
         } else {

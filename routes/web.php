@@ -23,3 +23,4 @@ Route::resource('users', 'UsersController');
 Route::get('/home', 'HomeController@index')->name('home');
 
 //Route::get('users', 'HomeController@getUsers')->name('get.users');
+//web
